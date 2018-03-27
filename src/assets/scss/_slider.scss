@@ -1,0 +1,38 @@
+.container-fluid {
+	max-width: 1010px;
+    padding: 0;
+
+    .slick-list {
+    	padding: 30px 0;
+    }
+
+    .sr-only {
+    	overflow: auto;
+    	clip-path: inset(0%);
+    	clip: auto;
+    	width: 65px;
+    	height: 65px;
+    	background-color: #fff;
+    	@extend .shadow;
+		border-radius: 5px;
+    }
+    .prev {
+    	@extend .sr-only;
+		left: -85px;
+
+		img {
+			transform: rotate(180deg);
+		    margin-top: 17px;
+		    margin-right: 5px;
+		}
+    }
+    .next {
+    	@extend .sr-only;
+		right: -85px;
+
+		img {
+		    margin-top: 17px;
+		    margin-right: -5px;
+		}
+    }
+}

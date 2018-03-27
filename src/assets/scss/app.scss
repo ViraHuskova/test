@@ -1,0 +1,28 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
+
+
+/* the slides */
+.slick-slide {
+    margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+    margin: 0 -10px;
+}
+
+body {
+	color: red;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.shadow {
+	-webkit-box-shadow: -1px 1px 5px 1px rgba(210,210,210,1);
+	-moz-box-shadow: -1px 1px 5px 1px rgba(210,210,210,1);
+	box-shadow: -1px 1px 5px 1px rgba(210,210,210,1);
+}
+
+@import "navbar";
+@import "content";
+@import "slider";
